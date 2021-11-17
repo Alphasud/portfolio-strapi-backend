@@ -1,3 +1,3 @@
-# Strapi application
+# Portfolio (backend) 
 
-A quick description of your strapi application
+This repo is my content management system for my personal portfolio, it uses Strapi.
