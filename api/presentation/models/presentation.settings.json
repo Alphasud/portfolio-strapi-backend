@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "presentations",
+  "info": {
+    "name": "Presentation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "resumeLink": {
+      "type": "string"
+    },
+    "linkedInLink": {
+      "type": "string"
+    },
+    "gitHubLink": {
+      "type": "string"
+    },
+    "profilePicture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
