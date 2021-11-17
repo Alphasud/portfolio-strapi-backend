@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_language_englishes",
+  "info": {
+    "name": "project",
+    "icon": "desktop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "repoLink": {
+      "type": "string"
+    },
+    "websiteLink": {
+      "type": "string"
+    },
+    "projectPicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "stack": {
+      "type": "string"
+    }
+  }
+}

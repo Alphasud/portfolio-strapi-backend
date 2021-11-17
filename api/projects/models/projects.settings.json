@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "presentations",
+  "collectionName": "projects",
   "info": {
-    "name": "presentation",
+    "name": "projects",
     "description": ""
   },
   "options": {
@@ -12,20 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "french": {
-      "type": "component",
-      "repeatable": false,
-      "component": "presentation.presentation"
-    },
     "english": {
       "type": "component",
       "repeatable": false,
-      "component": "presentation.presentation"
+      "component": "project.english"
+    },
+    "french": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.english"
     },
     "spanish": {
       "type": "component",
       "repeatable": false,
-      "component": "presentation.presentation"
+      "component": "project.english"
     }
   }
 }

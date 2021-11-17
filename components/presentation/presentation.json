@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_language_presentation_presentations",
+  "info": {
+    "name": "presentation",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "linkedInLink": {
+      "type": "string"
+    },
+    "gitHubLink": {
+      "type": "string"
+    },
+    "resumeLink": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "profilePicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
